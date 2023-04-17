@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --general-font-famaly:'Montserrat', sans-serif;
+    --color-defoult-orange:#FFA62B;
+    --color-defoult-blue:#00A0C1;
+    --text-defoult-gray:#737373;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+} 
